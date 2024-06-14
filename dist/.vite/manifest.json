@@ -1,0 +1,41 @@
+{
+  "/Users/rich/Development/SVELTE/KIT/repros/vite-glob-css/src/stuff/styles.css": {
+    "file": "assets/styles.css",
+    "src": "/Users/rich/Development/SVELTE/KIT/repros/vite-glob-css/src/stuff/styles.css"
+  },
+  "_stuff.js": {
+    "file": "chunks/stuff.js",
+    "name": "stuff",
+    "assets": [
+      "assets/text.txt"
+    ]
+  },
+  "src/a.js": {
+    "file": "a.js",
+    "name": "a",
+    "src": "src/a.js",
+    "isEntry": true,
+    "imports": [
+      "_stuff.js"
+    ]
+  },
+  "src/b.js": {
+    "file": "b.js",
+    "name": "b",
+    "src": "src/b.js",
+    "isEntry": true,
+    "imports": [
+      "_stuff.js"
+    ]
+  },
+  "src/c.js": {
+    "file": "c.js",
+    "name": "c",
+    "src": "src/c.js",
+    "isEntry": true
+  },
+  "src/stuff/text.txt": {
+    "file": "assets/text.txt",
+    "src": "src/stuff/text.txt"
+  }
+}
